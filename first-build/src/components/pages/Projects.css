@@ -1,0 +1,18 @@
+.projects-header {
+    padding: 6px;
+    margin: 3px;
+    display: flex;
+}
+
+.button-container {
+    flex: 1;
+    text-align: right;
+    padding-right: 6px;
+}
+
+.add-project {
+    padding: 0.5em;
+    font-size: 100%;
+    background-color: rgb(175, 255, 251);
+    border-radius: 5px;
+}

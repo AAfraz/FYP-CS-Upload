@@ -1,0 +1,20 @@
+div#root { /* Styling the "body" - The app is loaded into the root*/
+    background: red; /*Gonna cover so using to see if something goes wrong*/
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto; /* 4 rows for 4 items: Header, Nav, Page, Footer*/
+}
+
+div#root div.underlay { /*"underlay" is the className of the div*/
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+div#root div.underlay > main { /*Specifies the main which is in the underlay*/
+    padding: 30px;
+    background: whitesmoke;
+    width: 100%;
+    max-width: 1000px;
+}
